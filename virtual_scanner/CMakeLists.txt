@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.3)
 
-set(CGAL_DIR /usr/lib/x86_64-linux-gnu/cmake/CGAL)
+set(CGAL_DIR /usr/lib/x86_64-linux-gnu/cmake/)
+find_package(CGAL)
 
 if(SKBUILD)
     project(python_ocnn VERSION 18.10.09)
