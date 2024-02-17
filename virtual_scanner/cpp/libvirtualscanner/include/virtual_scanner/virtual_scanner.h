@@ -40,7 +40,7 @@ class VirtualScanner {
   Points point_cloud_;
 
   const int resolution_ = 127;
-  const int total_view_num_ = 14;
+  const int total_view_num_ = 34;
 
 };
 
